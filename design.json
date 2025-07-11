@@ -1,0 +1,149 @@
+{
+    "designSystem": {
+      "branding": {
+        "logo": {
+          "text": "Initials (e.g., F.M.)",
+          "position": "top-left",
+          "fontWeight": "bold",
+          "fontSize": "1.2rem"
+        },
+        "headline": {
+          "fontSize": "7rem",
+          "fontWeight": "900",
+          "letterSpacing": "-0.05em",
+          "textTransform": "uppercase"
+        }
+      },
+      "theme": {
+        "mode": "dark",
+        "background": "#0e0e0e",
+        "textPrimary": "#ffffff",
+        "textSecondary": "#aaaaaa",
+        "accent": "#00ff66",
+        "border": "#1a1a1a",
+        "hover": "#222222"
+      },
+      "typography": {
+        "fontFamily": "Inter, sans-serif",
+        "scales": {
+          "title": "6rem",
+          "subtitle": "1.2rem",
+          "caption": "0.75rem",
+          "label": "0.85rem"
+        },
+        "weights": {
+          "regular": 400,
+          "bold": 700,
+          "extrabold": 900
+        },
+        "case": {
+          "titles": "uppercase",
+          "captions": "uppercase",
+          "body": "normal"
+        }
+      },
+      "layout": {
+        "width": "100%",
+        "maxWidth": "1440px",
+        "grid": {
+          "columns": 12,
+          "gap": "2rem"
+        },
+        "padding": {
+          "mobile": "1.5rem",
+          "desktop": "3rem"
+        }
+      },
+      "components": {
+        "header": {
+          "style": "sticky",
+          "elements": [
+            "logo-left",
+            "centered-navigation",
+            "contact-button-right"
+          ],
+          "background": "transparent",
+          "textColor": "#ffffff"
+        },
+        "hero": {
+          "layout": "2-column",
+          "content": {
+            "left": {
+              "label": "intro-text",
+              "fontStyle": "condensed",
+              "color": "#888888"
+            },
+            "right": {
+              "paragraph": "max-width: 45ch",
+              "lineHeight": "1.6"
+            },
+            "status": {
+              "label": "AVAILABLE",
+              "indicator": "green-dot"
+            }
+          }
+        },
+        "socialLinks": {
+          "display": "horizontal",
+          "spacing": "1.2rem",
+          "hoverEffect": "underline",
+          "platforms": [
+            "Instagram",
+            "Behance",
+            "Dribbble",
+            "X/Twitter",
+            "LinkedIn"
+          ]
+        },
+        "projectShowcase": {
+          "title": "FEATURED PROJECT:",
+          "layout": "2-grid",
+          "style": "greyscale previews with hover zoom",
+          "textOverlay": false
+        },
+        "button": {
+          "shape": "pill",
+          "padding": "0.75rem 1.5rem",
+          "fontWeight": "600",
+          "background": "#1a1a1a",
+          "borderRadius": "999px",
+          "hoverEffect": "invert"
+        }
+      },
+      "interactions": {
+        "hover": {
+          "scale": 1.05,
+          "transition": "all 0.3s ease"
+        },
+        "focus": {
+          "outline": "2px solid #00ff66"
+        }
+      },
+      "responsiveness": {
+        "mobileFirst": true,
+        "breakpoints": {
+          "sm": "640px",
+          "md": "768px",
+          "lg": "1024px",
+          "xl": "1280px"
+        },
+        "adjustments": {
+          "heroFontSize": {
+            "sm": "4rem",
+            "md": "5rem",
+            "lg": "7rem"
+          },
+          "gridColumns": {
+            "sm": 1,
+            "md": 2
+          }
+        }
+      },
+      "accessibility": {
+        "contrast": "WCAG AA+",
+        "keyboardNavigation": true,
+        "ariaLabels": true
+      }
+    }
+  }
+  
